@@ -9,7 +9,7 @@ const Pagination = ({ totalPost, postPerPage, setCurrentPage, currentPage }) => 
     }
     return (
         <div className="container">
-            <div className="ox d-flex justify-content-center ">
+            <div className="ox text-center my-4 ">
             {
                     pages.map((page, i) => {
                         return <button key={i} onClick={() => setCurrentPage(page)}
